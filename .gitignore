@@ -1,0 +1,10 @@
+*.sch-bak
+*.kicad_pcb-bak
+*.tmp
+*.lib
+*.dcm
+/Sim
+/Documents
+/tachoBG
+sym-lib-table
+fp-info-cache
