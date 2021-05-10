@@ -1293,11 +1293,11 @@ Text Label 6900 6650 2    50   ~ 0
 ~SPICS
 Wire Wire Line
 	6900 6650 6550 6650
-Text Label 5500 4900 2    50   ~ 0
+Text Label 5500 4200 2    50   ~ 0
 UART_MCURX
 Wire Wire Line
 	5500 4200 4950 4200
-Text Label 5500 4800 2    50   ~ 0
+Text Label 5500 4100 2    50   ~ 0
 UART_MCUTX
 Wire Wire Line
 	5500 4100 4950 4100
@@ -1374,8 +1374,6 @@ Text Label 4550 3500 3    50   ~ 0
 VREF
 Wire Wire Line
 	4550 3500 4550 3700
-Text Label 2750 6850 2    50   ~ 0
-PB14_AD4
 Text Label 2750 6150 2    50   ~ 0
 PB11_AD1
 Text Label 2750 6650 2    50   ~ 0
@@ -1434,8 +1432,8 @@ Text Label 5500 4000 2    50   ~ 0
 PA1_AD1
 Wire Wire Line
 	5500 4000 4950 4000
-Text Label 5500 7000 2    50   ~ 0
-PB14_AD4
+Text Label 2750 6850 2    50   ~ 0
+PB2_AD2
 Wire Wire Line
 	5500 7000 4950 7000
 Text Label 3100 6450 0    50   ~ 0
@@ -1482,17 +1480,17 @@ Text Label 5500 4700 2    50   ~ 0
 PWMAH
 Text Label 3100 6850 0    50   ~ 0
 PWMAL
-Text Label 5500 7100 2    50   ~ 0
+Text Label 5500 7000 2    50   ~ 0
 PWMBL
-Text Label 3100 5850 0    50   ~ 0
+Text Label 5500 4900 2    50   ~ 0
 PWMCH
-Text Label 3100 6050 0    50   ~ 0
+Text Label 5500 7100 2    50   ~ 0
 PWMCL
 Wire Wire Line
 	5500 7100 4950 7100
 Wire Wire Line
 	3100 5750 3550 5750
-Text Label 3100 5750 0    50   ~ 0
+Text Label 5500 4800 2    50   ~ 0
 PWMBH
 $Comp
 L power:+3.3V #PWR035
@@ -1627,7 +1625,7 @@ F 4 "SSQ-110-03-T-D" H 6250 6350 50  0001 C CNN "Manufacturer Part Number"
 	1    6250 6350
 	1    0    0    -1  
 $EndComp
-Text Label 6900 6050 2    50   ~ 0
+Text Label 6900 6250 2    50   ~ 0
 GPIO\EI1
 Text Label 3100 5350 0    50   ~ 0
 GPIO\EI1
@@ -1647,7 +1645,7 @@ Wire Wire Line
 	3100 5950 3550 5950
 Wire Wire Line
 	1450 6350 1900 6350
-Text Label 6900 6250 2    50   ~ 0
+Text Label 6900 6150 2    50   ~ 0
 GPIO\EI4
 Wire Wire Line
 	1450 6650 1900 6650
@@ -2263,11 +2261,11 @@ Wire Wire Line
 Connection ~ 8200 1000
 Wire Wire Line
 	6550 5950 7000 5950
-Text Label 5500 4100 2    50   ~ 0
+Text Label 3100 5750 0    50   ~ 0
 GPIO\EI3
-Text Label 5500 4200 2    50   ~ 0
+Text Label 3100 5850 0    50   ~ 0
 GPIO\EI4
-Text Label 5500 5900 2    50   ~ 0
+Text Label 3100 6050 0    50   ~ 0
 GPIO\EI5
 Wire Wire Line
 	5500 5900 4950 5900
@@ -2279,7 +2277,7 @@ Text Label 5500 6600 2    50   ~ 0
 GPIO\EI6
 Wire Wire Line
 	5500 6600 4950 6600
-Text Label 6900 6150 2    50   ~ 0
+Text Label 6900 6050 2    50   ~ 0
 GPIO\EI3
 Wire Wire Line
 	6900 6150 6550 6150
@@ -2362,4 +2360,6 @@ Wire Wire Line
 	4850 1300 4850 1400
 Text Notes 4500 1600 1    50   ~ 0
 Optional connector.
+Text Label 5500 5900 2    50   ~ 0
+PB2_AD2
 $EndSCHEMATC
